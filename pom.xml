@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.zjcw</groupId>
+    <artifactId>wheeze_dog</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>wd_structlog4j</module>
+        <module>wd_sleuth</module>
+        <module>wd_server_a</module>
+        <module>wd_server_b</module>
+        <module>wd_server_c</module>
+        <module>wd_server_e</module>
+        <module>wd_server_sleuth_pom</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
+    <properties>
+
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+
+        <spring.cloud-version>Hoxton.SR8</spring.cloud-version>
+        <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
+
+
+        <org.projectlombok>1.16.16</org.projectlombok>
+        <wd.structlog4j>1.0-SNAPSHOT</wd.structlog4j>
+        <junit.version>4.13</junit.version>
+
+    </properties>
+
+
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${org.projectlombok}</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.zjcw</groupId>
+                <artifactId>wd_structlog4j-api</artifactId>
+                <version>${wd.structlog4j}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.zjcw</groupId>
+                <artifactId>wd_structlog4j-json</artifactId>
+                <version>${wd.structlog4j}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>compile</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
