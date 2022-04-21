@@ -39,7 +39,7 @@
 
         <org.projectlombok>1.16.16</org.projectlombok>
         <wd.structlog4j>1.0-SNAPSHOT</wd.structlog4j>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
 
         <apollo-client.version>1.9.0</apollo-client.version>
 
