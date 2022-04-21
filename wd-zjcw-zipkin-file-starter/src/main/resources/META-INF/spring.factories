@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.zjcw.zipkin.file.config.FileConfig
+org.springframework.context.ApplicationContextInitializer=\
+cn.zjcw.zipkin.file.boot.TraceFileApplicationContextInitializer

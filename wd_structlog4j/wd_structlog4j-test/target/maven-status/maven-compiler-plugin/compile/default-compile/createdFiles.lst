@@ -1,0 +1,7 @@
+cn\zjwc\structlog4j\test\samples\BusinessObjectContext.class
+cn\zjwc\structlog4j\test\TestUtils.class
+org\slf4j\impl\StaticLoggerBinder.class
+org\slf4j\impl\TestLoggerFactory.class
+cn\zjwc\structlog4j\test\samples\TestSecurityContext.class
+org\slf4j\impl\TestLogger.class
+org\slf4j\impl\LogEntry.class

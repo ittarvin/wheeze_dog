@@ -1,0 +1,12 @@
+cn\zjcw\zipkin\kafka\spring\sender\ZipKinKafkaSender$Builder.class
+cn\zjcw\zipkin\kafka\spring\config\ZipkinKafkaProperties.class
+cn\zjcw\zipkin\kafka\spring\filter\ZipkinKafkaFilter.class
+cn\zjcw\zipkin\kafka\spring\sender\ZipKinKafkaSender.class
+cn\zjcw\zipkin\kafka\spring\sender\ZipKinKafkaSender$CallbackAdapter.class
+cn\zjcw\zipkin\kafka\spring\logger\IPConverterConfig.class
+cn\zjcw\zipkin\kafka\spring\sender\ZipKinKafkaSender$KafkaCall.class
+cn\zjcw\zipkin\kafka\spring\boot\ZipKinKafkaApplicationContextInitializer.class
+cn\zjcw\zipkin\kafka\spring\boot\DynamicLoggerConfiguration.class
+cn\zjcw\zipkin\kafka\spring\boot\ZipKinKafkaAutoConfiguration.class
+cn\zjcw\zipkin\kafka\spring\config\ZipkinKafkaApplicationProperties.class
+cn\zjcw\zipkin\kafka\spring\config\ZipkinKafkaPropertySourcesConstants.class

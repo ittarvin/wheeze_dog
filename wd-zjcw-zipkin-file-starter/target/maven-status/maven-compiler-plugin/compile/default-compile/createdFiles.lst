@@ -1,0 +1,4 @@
+cn\zjcw\zipkin\file\boot\TraceFileApplicationContextInitializer.class
+cn\zjcw\zipkin\file\config\FileConfig.class
+cn\zjcw\zipkin\file\sender\FileSender.class
+cn\zjcw\zipkin\file\boot\TraceFilePropertySourcesConstants.class
