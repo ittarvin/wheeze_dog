@@ -43,7 +43,7 @@
 
         <apollo-client.version>1.9.0</apollo-client.version>
 
-        <com.alibaba.fastjson>1.2.78</com.alibaba.fastjson>
+        <com.alibaba.fastjson>1.2.83</com.alibaba.fastjson>
 
         <net.logstash.logback.version>6.1</net.logstash.logback.version>
 
